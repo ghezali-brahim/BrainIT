@@ -332,8 +332,8 @@ class ModeleArticle extends DBMapper
         $this->_actif = TRUE;
     }
 
-    /** Active l'article
-     * Met la variable actif à vrai
+    /** Desactive l'article
+     * Met la variable actif à faux
      * @throws Exception
      */
     function desactiverArticle ()
